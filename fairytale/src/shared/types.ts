@@ -5,3 +5,12 @@ export enum SelectedPage{
     OurClasses="ourclasses",
     Contact="contact"
   }
+
+  
+
+export interface BenifitsType{
+    icon:JSX.Element,
+    description:string ,
+    title:string,
+  }
+
